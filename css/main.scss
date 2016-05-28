@@ -3,8 +3,70 @@
 ---
 @charset "utf-8";
 
+.site-title{
+  text-align: center;
+font-family: arvo;
+font-weight: 700;
+font-size: 140px;
+}
+body{
+  font-family: "vollkorn" !important;
+}
+.rss-subscribe{
+  float: right;
+}
+.site-des{
+  text-align: center;
+  font-family: vollkorn;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-indent: 5px;
+  margin-right: -5px;
+  text-transform: uppercase;
 
+}
 
+.date-stuff{
+  text-align: right;
+text-transform: capitalize;
+line-height: 0.8;
+}
+
+.month{
+  font-size: 15px;
+}
+
+.date-only{
+  font-size: 46px;
+}
+
+.year{
+  font-size: 14px;
+}
+
+.post-content{
+padding-top: 5em;
+}
+.pb{
+  padding-top: 3em;
+}
+
+.post-link{
+  font-family: vollkorn;
+line-height: 1px;
+font-size: 30px;
+}
+p{
+
+padding-left: 0px !important;
+font-size: 20px;
+padding-top: 0.3em !important;
+}
+.footer{
+  padding: 1em;
+  font-size: 18px;
+  font-family: arvo;
+}
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -47,6 +109,6 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        
+
         "syntax-highlighting"
 ;
