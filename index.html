@@ -28,10 +28,10 @@ layout: default
       </div>
       <div class="col-md-10">
 
-          <div class="post-link" >{{ post.title }}</div>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-        <p>
-          {{post.content}}
+        <p class="pc">
+          {{ post.content | strip_html | truncatewords:30}}
         </p>
       </div><br><br>
 

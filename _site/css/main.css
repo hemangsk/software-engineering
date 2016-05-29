@@ -22,7 +22,7 @@ body {
 .date-stuff {
   text-align: right;
   text-transform: capitalize;
-  line-height: 0.8; }
+  line-height: 1; }
 
 .month {
   font-size: 15px; }
@@ -52,7 +52,33 @@ p {
 .footer {
   padding: 1em;
   font-size: 18px;
-  font-family: arvo; }
+  font-family: vollkorn; }
+
+.main-site-title {
+  color: black; }
+
+.main-site-title:hover {
+  color: #23527c; }
+
+a {
+  color: darkblue; }
+
+.post-meta {
+  text-align: center; }
+
+p {
+  text-align: justify; }
+
+a:hover {
+  text-decoration: none !important;
+  border-bottom: 1px dotted black;
+  color: black; }
+
+.post-link {
+  color: #23527c !important; }
+
+.post-link:hover {
+  color: black !important; }
 
 /**
  * Syntax highlighting styles
