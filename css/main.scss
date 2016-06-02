@@ -9,6 +9,10 @@ font-family: arvo;
 font-weight: 700;
 font-size: 140px;
 }
+.top-down-list{
+  padding: 1em;
+  text-align: justify;
+}
 body{
   font-family: "vollkorn" !important;
 }
@@ -46,6 +50,7 @@ line-height: 1;
 
 .post-content{
 padding-top: 5em;
+padding-bottom: 4em;
 }
 .pb{
   padding-top: 3em;
@@ -53,7 +58,7 @@ padding-top: 5em;
 
 .post-link{
   font-family: vollkorn;
-line-height: 1px;
+line-height: 1.4;
 font-size: 30px;
 }
 p{
@@ -96,6 +101,40 @@ a:hover{
 }
 .main-style-title:hover{
 
+}
+.post-title{
+ font-size: 56px;
+}
+.cmnt{
+  font-size: 11px;
+  line-height: 1;
+}
+.tagline{
+  padding-top: 0.6em !important;
+  color: #880e4f;
+  font-size:18px;
+}
+.ddl{
+  border-bottom: 1px dotted black;
+}
+.udl{
+  border-bottom: 3px solid black;
+}
+img{
+  height: 45%;
+  width: 45%;
+}
+.quote{
+  font-weight: 100;
+  background-color: lightgrey;
+  padding: 1em;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+li{
+  font-size: 19px;
+  line-height: 1;
 }
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

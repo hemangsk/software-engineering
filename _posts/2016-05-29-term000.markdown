@@ -1,0 +1,273 @@
+---
+layout: post
+title:  "Software Requirements Analysis & Specification"
+date:   2016-05-30 00:00:28 +0530
+categories: software
+tagline: The "What" of software engineering
+---
+
+There's a thing called a software's <span class="udl">life cycle</span>.
+
+
+It is the period of time that starts when a software product and conceived and ends when the product is no longer available for use.
+
+
+The various processes or methodologies that are being selected for the development of the software are called <span class="udl">software life cycle models</span>.
+
+
+The 'model' thing sounds boring, but trust me its damn interesting, you will enjoy it all along!
+
+
+<span class="ddl">Types of Models</span>
+
+<span class="udl">Build &amp; Fix Model</span>
+
+Product is constructed without specifications.
+
+Simple two phase model.
+
+Build Code -> Fix Code -> Build Code -> ...
+
+<span class="ddl">Pros &amp; Cons</span>
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Suitable for small programming exercises of 100 or 200 lines.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Unsatisfactory for software for any reasonable size.
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Code soon becomes unfixable &amp; unenhanceable
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> No room for structured design
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Maintenance is practically not possible.
+<hr>
+
+<span class="udl">Waterfall Model</span>
+
+This model is called waterfall because its diagrammatic representation resembles a waterfall.
+<div class="top-down-list">
+
+Requirement Analysis and specification
+
+<br>
+<i class="fa fa-arrow-down" aria-hidden="true"></i><br>
+
+
+Design<br>
+
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i><br>
+
+
+
+Implementation &amp; Unit Testing<br>
+
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i><br>
+
+
+Integration &amp; Integration Testing
+<br>
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+<br>
+
+Operation &amp; Maintenance
+</div>
+
+<span class="ddl">Pros &amp; Cons</span>
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> It is difficult to define all requirements at the beginning of a project
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> This model is not suitable for accommodating any change
+
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> A working version of the system is not seen until late in the project’s life
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> It does not scale up well to large projects.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Real projects are rarely sequential
+
+<hr>
+
+<div class="quote">
+  The following models come under the subtype -  <em class="udl">Incremental Process Models</em>. <br>
+
+<br>
+  They are effective in the situations where requirements are defined precisely and there is no confusion about the functionality of the final product.
+<br>
+
+<br>
+  After every cycle a useable product is given to the customer.
+
+<br><br>
+  Popular particularly when we have to quickly deliver a limited functionality system.
+</div>
+
+
+
+
+<span class="udl">Iterative Enhancement Model</span>
+
+
+
+So this is an <span class="udl">Incremental Process Software Life cycle model</span>.
+
+
+
+The Phases occur in same sequence as in Waterfall Model, but these things are different:-
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> In every step, a usable software is obtained.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> They are conducted in several cycles.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Cycles implement features on the basis of <span class="udl">priority</span>. Most important feature in first cycle, second most important in second ... so on.
+
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> We jump from one step to next consecutive step while moving  <span class="ddl">down the waterfall</span> and we can jump from one step to any other step, when we are moving in <span class="ddl">backward direction</span>.
+
+<hr>
+<!--EPM-->
+<span class="udl">Evolutionary Process Models</span>
+
+
+<span class="udl">Incremental Process Software Life cycle model</span>.
+
+
+
+The Phases occur in same sequence as in Waterfall Model and Iterative Enhancement Model, but these things are different:-
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> It is not important to have a useable product at end of each cycle.
+
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Cycles implement features on the basis of <span class="udl">category</span>. Most important feature in first cycle, second most important in second ... so on.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Used when the technology used in not fully understood.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Used in complex projects where all functionalities must be delivered at once in a package, but requirements are unstable in the begining.
+<hr>
+
+<!--PROTOTYPING-->
+
+<span class="udl">Prototyping Model</span>.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> The prototype may be a usable program but is not suitable as the final software product.
+
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> The code for the prototype is thrown away. However experience gathered helps in developing the actual system.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> The development of a prototype might involve extra cost, but overall cost might turnout to be lower than that of an equivalent system developed using the waterfall model.
+
+
+
+<hr>
+
+<!--spiral-->
+<span class="udl">Spiral Model</span>
+
+
+<span class="udl">Incremental Process Software Life cycle model</span>
+
+
+Models do not deal with uncertainly which is inherent to software projects.
+Important software projects have failed because project risks were neglected & nobody was prepared when something unforeseen happened.
+
+
+The radial dimension of the model represents the cumulative costs. Each path around the spiral is indicative of increased costs. The angular dimension represents the progress made in completing each cycle. Each loop of the spiral from X-axis clockwise through 360o represents one phase. One phase is split roughly into four sectors of major activities.
+
+
+<span class="ddl">Planning: Determination of objectives, alternatives &amp;
+ constraints.</span>
+
+
+
+ <span class="ddl">Risk Analysis: Analyze alternatives and attempts to identify and resolve the risks involved</span>
+
+
+<span class="ddl">Development: Product development and testing product.</span>
+
+
+ <span class="ddl">Assessment: Customer evaluation</span>
+
+
+ <i class="fa fa-arrow-right" aria-hidden="true"></i>An important feature of the spiral model is that each phase is completed with a review by the people concerned with the project (designers and programmers)
+
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i>  The advantage of this model is the wide range of options to accommodate the good features of other life cycle models.
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i>  It becomes equivalent to another life cycle model in appropriate situations.
+
+<hr>
+
+
+<!--RAD-->
+
+<span class="udl">Rapid Application Development Model</span>
+
+
+
+<hr>
+
+
+
+<span class="udl">The Unified Process</span>
+
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> The goal of producing good quality maintainable software within specified time and budget.
+
+<i class="fa fa-arrow-right" aria-hidden="true"></i> Maintained and enhanced by Rational Software Corporation and thus referred to as Rational Unified Process (RUP).
+
+
+<em class="ddl">Phases Of Unified Process</em>
+
+
+<div class="top-down-list">
+
+Inception
+
+<br><br>
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition of objectives<br>
+<br>
+
+
+Elaboration
+
+<br><br>
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planning &amp; Architecture for project<br>
+<br>
+
+
+Construction
+
+<br><br>
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initial Operational Capability<br>
+<br>
+
+
+Transition
+
+<br><br>
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Release of the software product<br>
+<br>
+</div>

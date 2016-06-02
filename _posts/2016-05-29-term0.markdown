@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Software Certification"
+date:   2016-05-30 00:00:28 +0530
+categories: software
+tagline: Everything about Software Certification
+---
+
+<span class="ddl">Types of Certification</span>
+
+
+<em class="udl">Certification of People</em>
+
+
+
+<em class="udl">Certification of Process</em>
+
+
+<em class="udl">Certification of Product</em>
+
+<hr>
+
+
+<em class="udl">Certification of People</em>
+
+Professional level of competence in the principles & practices of software quality assurance in the software industry can be achieved by acquiring the designation of:
+
+<span class="ddl">Certified Software Quality Analyst (CSQA) </span>
+
+
+
+<span class="ddl">Certified Software Tester (CSTE)</span>
+
+
+<span class="ddl">Certified Software Project Manager (CSPM)</span>
+
+
+Some company specific certifications are also very popular like Microsoft Office Specialist (MOS) certifications in Word, Excel and PowerPoint.
+
+
+<span class="udl">MOS</span> is far best known computer skills certification for administrator.
+<hr>
+
+
+
+
+<em class="udl">Certification of Processes</em>
+
+The most popular ones to know are,
+
+
+<span class="ddl">ISO 9000 </span>
+
+
+
+<span class="ddl">SEI-CMM</span>
+
+<hr>
+
+
+
+<em class="udl">Certification of Products</em>
+
+This is the one <span class="udl">required for the customer</span>.
+
+
+There is no standard certification but a popular one is by the aviation industry called "TCA DO-178B".
+
+
+This "TCA DO-178B" is divided into levels A, B, C, D, or E.
+
+
+These levels describe the consequences of a potential failure of the software :<span class="udl"> catastrophic, hazardous severe, major, minor or no effect</span>.
+
+
+
+<span class="ddl">Third Party certification for Component Based Software Engineering</span>
+
+
+
+<span class="ddl">Component Based Software Engineering</span> is the process in which software is created by assembling different components.
+
+
+
+Third party certification is a method to ensure software components conform to well defined standards based on this certification and thus trusted assemblies of components can be constructed.
+
+
+Here's how it works, the contractor gives  the company/developer the software project to make, apart from that, the contractor also <span class="udl">gives the standard</span>, <span class="udl">directs any variations in specification</span>, <span class="udl">defines patterns</span>, <span class="udl"> defines allowable tolerances</span>, <span class="udl"> fixes the date of delivery.</span>
+<hr>

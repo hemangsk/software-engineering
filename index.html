@@ -6,7 +6,7 @@ layout: default
 
 
   <div class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
 
     <div class="row pb">
       <div class="post-box">
@@ -29,7 +29,7 @@ layout: default
       <div class="col-md-10">
 
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
+          {% if post.tagline %}<div class="tagline">{{post.tagline}}</div>{% endif %}
         <p class="pc">
           {{ post.content | strip_html | truncatewords:30}}
         </p>

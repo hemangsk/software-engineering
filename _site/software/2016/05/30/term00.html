@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="C & C" property="og:site_name">
+
+  <meta content="Life Cycle Models" property="og:title">
+
+
+  <meta content="article" property="og:type">
+
+
+  <meta content="Coupling, Cohesion, COCOMO and everything" property="og:description">
+
+
+  <meta content="http://yourdomain.com/software/2016/05/30/term00.html" property="og:url">
+
+
+  <meta content="2016-05-30T00:00:28+05:30" property="article:published_time">
+  <meta content="http://yourdomain.com/about/" property="article:author">
+
+
+  <meta property="og:image" content="">
+
+
+  
+  <meta content="software" property="article:section">
+  
+
+
+  
+
+  <title>Life Cycle Models</title>
+  <meta name="description" content="There’s a thing called a software’s life cycle.">
+
+  <link rel="stylesheet" href="/css/main.css">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700|Playfair+Display:400,700|Arvo:400,700|Elsie|Trochut:400,700|Vollkorn:400,700,400italic' rel='stylesheet' type='text/css'>  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+  <link rel="canonical" href="http://yourdomain.com/software/2016/05/30/term00.html">
+  <link rel="alternate" type="application/rss+xml" title="C & C" href="http://yourdomain.com/feed.xml">
+</head>
+
+  <body>
+    <div class="container">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="site-title">
+      <a class="main-site-title" href="/">C & C</a>
+    </div>
+
+    <div class="site-des">
+    <a class="main-site-title" href="/">  Coupling, Cohesion, COCOMO and everything</a>
+    </div>
+  </div>
+
+</div>
+
+    <div class="container main-content">
+      <div class="col-md-8 col-md-offset-2 post-content">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <center>
+    <a class="post-link" style="font-size:50px !important;" href=""><h1 class="post-title" itemprop="name headline">Life Cycle Models</h1></a>
+    <p class="post-meta"><time datetime="2016-05-30T00:00:28+05:30" itemprop="datePublished">May 30, 2016</time></p>
+    <div class="tagline">Curious Cases & Buttons</div>
+</center>
+  </header>
+
+  <div class="post-content" style="text-align:justify;"itemprop="articleBody">
+    <p>There’s a thing called a software’s <span class="udl">life cycle</span>.</p>
+
+<p>It is the period of time that starts when a software product and conceived and ends when the product is no longer available for use.</p>
+
+<p>The various processes or methodologies that are being selected for the development of the software are called <span class="udl">software life cycle models</span>.</p>
+
+<p>The ‘model’ thing sounds boring, but trust me its damn interesting, you will enjoy it all along!</p>
+
+<p><span class="ddl">Types of Models</span></p>
+
+<p><span class="udl">Build &amp; Fix Model</span></p>
+
+<p>Product is constructed without specifications.</p>
+
+<p>Simple two phase model.</p>
+
+<p>Build Code -&gt; Fix Code -&gt; Build Code -&gt; …</p>
+
+<p><span class="ddl">Pros &amp; Cons</span></p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Suitable for small programming exercises of 100 or 200 lines.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Unsatisfactory for software for any reasonable size.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Code soon becomes unfixable &amp; unenhanceable</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> No room for structured design</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Maintenance is practically not possible.</p>
+<hr />
+
+<p><span class="udl">Waterfall Model</span></p>
+
+<p>This model is called waterfall because its diagrammatic representation resembles a waterfall.</p>
+<div class="top-down-list">
+
+Requirement Analysis and specification
+
+<br />
+<i class="fa fa-arrow-down" aria-hidden="true"></i><br />
+
+
+Design<br />
+
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i><br />
+
+
+
+Implementation &amp; Unit Testing<br />
+
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i><br />
+
+
+Integration &amp; Integration Testing
+<br />
+
+<i class="fa fa-arrow-down" aria-hidden="true"></i>
+<br />
+
+Operation &amp; Maintenance
+</div>
+
+<p><span class="ddl">Pros &amp; Cons</span></p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> It is difficult to define all requirements at the beginning of a project</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> This model is not suitable for accommodating any change</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> A working version of the system is not seen until late in the project’s life</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> It does not scale up well to large projects.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Real projects are rarely sequential</p>
+
+<hr />
+
+<div class="quote">
+  The following models come under the subtype -  <em class="udl">Incremental Process Models</em>. <br />
+
+<br />
+  They are effective in the situations where requirements are defined precisely and there is no confusion about the functionality of the final product.
+<br />
+
+<br />
+  After every cycle a useable product is given to the customer.
+
+<br /><br />
+  Popular particularly when we have to quickly deliver a limited functionality system.
+</div>
+
+<p><span class="udl">Iterative Enhancement Model</span></p>
+
+<p>So this is an <span class="udl">Incremental Process Software Life cycle model</span>.</p>
+
+<p>The Phases occur in same sequence as in Waterfall Model, but these things are different:-</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> In every step, a usable software is obtained.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> They are conducted in several cycles.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Cycles implement features on the basis of <span class="udl">priority</span>. Most important feature in first cycle, second most important in second … so on.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> We jump from one step to next consecutive step while moving  <span class="ddl">down the waterfall</span> and we can jump from one step to any other step, when we are moving in <span class="ddl">backward direction</span>.</p>
+
+<hr />
+
+<!--EPM-->
+<p><span class="udl">Evolutionary Process Models</span></p>
+
+<p><span class="udl">Incremental Process Software Life cycle model</span>.</p>
+
+<p>The Phases occur in same sequence as in Waterfall Model and Iterative Enhancement Model, but these things are different:-</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> It is not important to have a useable product at end of each cycle.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Cycles implement features on the basis of <span class="udl">category</span>. Most important feature in first cycle, second most important in second … so on.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Used when the technology used in not fully understood.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Used in complex projects where all functionalities must be delivered at once in a package, but requirements are unstable in the begining.</p>
+<hr />
+
+<!--PROTOTYPING-->
+
+<p><span class="udl">Prototyping Model</span>.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> The prototype may be a usable program but is not suitable as the final software product.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> The code for the prototype is thrown away. However experience gathered helps in developing the actual system.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> The development of a prototype might involve extra cost, but overall cost might turnout to be lower than that of an equivalent system developed using the waterfall model.</p>
+
+<hr />
+
+<!--spiral-->
+<p><span class="udl">Spiral Model</span></p>
+
+<p><span class="udl">Incremental Process Software Life cycle model</span></p>
+
+<p>Models do not deal with uncertainly which is inherent to software projects.
+Important software projects have failed because project risks were neglected &amp; nobody was prepared when something unforeseen happened.</p>
+
+<p>The radial dimension of the model represents the cumulative costs. Each path around the spiral is indicative of increased costs. The angular dimension represents the progress made in completing each cycle. Each loop of the spiral from X-axis clockwise through 360o represents one phase. One phase is split roughly into four sectors of major activities.</p>
+
+<p><span class="ddl">Planning: Determination of objectives, alternatives &amp;
+ constraints.</span></p>
+
+<p><span class="ddl">Risk Analysis: Analyze alternatives and attempts to identify and resolve the risks involved</span></p>
+
+<p><span class="ddl">Development: Product development and testing product.</span></p>
+
+<p><span class="ddl">Assessment: Customer evaluation</span></p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i>An important feature of the spiral model is that each phase is completed with a review by the people concerned with the project (designers and programmers)</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i>  The advantage of this model is the wide range of options to accommodate the good features of other life cycle models.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i>  It becomes equivalent to another life cycle model in appropriate situations.</p>
+
+<hr />
+
+<!--RAD-->
+
+<p><span class="udl">Rapid Application Development Model</span></p>
+
+<hr />
+
+<p><span class="udl">The Unified Process</span></p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> The goal of producing good quality maintainable software within specified time and budget.</p>
+
+<p><i class="fa fa-arrow-right" aria-hidden="true"></i> Maintained and enhanced by Rational Software Corporation and thus referred to as Rational Unified Process (RUP).</p>
+
+<p><em class="ddl">Phases Of Unified Process</em></p>
+
+<div class="top-down-list">
+
+Inception
+
+<br /><br />
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definition of objectives<br />
+<br />
+
+
+Elaboration
+
+<br /><br />
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Planning &amp; Architecture for project<br />
+<br />
+
+
+Construction
+
+<br /><br />
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initial Operational Capability<br />
+<br />
+
+
+Transition
+
+<br /><br />
+<i class="fa fa-arrow-down" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Release of the software product<br />
+<br />
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+
+
+  </body>
+    
+  <div class="container-fluid">
+<center>
+  <div class="footer">
+      &copy; Hemang Kumar
+  </div>
+
+</center>
+
+
+  </div>
+
+</html>
