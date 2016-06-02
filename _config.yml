@@ -9,8 +9,8 @@
 title: C & C
 email: your-email@domain.com
 description: Coupling, Cohesion, COCOMO and everything
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/software-engineering" # the subpath of your site, e.g. /blog
+url: "http://hemangsk.github.io" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username:  hemangsk
 
