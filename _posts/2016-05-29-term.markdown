@@ -4,6 +4,7 @@ title:  "Software Terminologies"
 date:   2016-05-29 19:20:28 +0530
 categories: software
 tagline: Keep'em Handy
+comments: true
 ---
 
 <em class="ddl">Deliverables and Milestones</em>

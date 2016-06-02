@@ -4,6 +4,7 @@ title:  "Life Cycle Models"
 date:   2016-05-30 00:00:28 +0530
 categories: software
 tagline: Curious Cases & Buttons
+comments: true
 ---
 
 There's a thing called a software's <span class="udl">life cycle</span>.

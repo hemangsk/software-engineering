@@ -4,6 +4,7 @@ title:  "Glitters and Gold!"
 date:   2016-05-29 17:50:28 +0530
 categories: software
 tagline: Some myths about software industry
+comments: true
 ---
 
 Software Industry = Software Company's Management + Customers + Developers

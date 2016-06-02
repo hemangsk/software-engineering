@@ -4,6 +4,7 @@ title:  "Software Certification"
 date:   2016-05-30 00:00:28 +0530
 categories: software
 tagline: Everything about Software Certification
+comments: true
 ---
 
 <span class="ddl">Types of Certification</span>
