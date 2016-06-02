@@ -4,6 +4,7 @@ title:  "Elementary Analysis"
 date:   2016-05-29 15:58:35 +0530
 categories: software engineering
 tagline: "What is software engineering ?"
+comments: true
 ---
 
 The definition of software is given as,
