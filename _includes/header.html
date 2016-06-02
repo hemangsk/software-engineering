@@ -1,11 +1,11 @@
 <div class="container">
   <div class="col-md-8 col-md-offset-2">
     <div class="site-title">
-      <a class="main-site-title" href="/">{{site.title}}</a>
+      <a class="main-site-title" href="/">{{site.title | prepend: site.baseurl }}</a>
     </div>
 
     <div class="site-des">
-    <a class="main-site-title" href="/">  {{site.description}}</a>
+    <a class="main-site-title" href="/">  {{site.description | prepend: site.baseurl}}</a>
     </div>
   </div>
 

@@ -3,10 +3,10 @@
   <channel>
     <title>C &amp; C</title>
     <description>Coupling, Cohesion, COCOMO and everything</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jun 2016 19:16:10 +0530</pubDate>
-    <lastBuildDate>Thu, 02 Jun 2016 19:16:10 +0530</lastBuildDate>
+    <link>http://hemangsk.github.io/</link>
+    <atom:link href="http://hemangsk.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 03 Jun 2016 00:17:43 +0530</pubDate>
+    <lastBuildDate>Fri, 03 Jun 2016 00:17:43 +0530</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Tue, 31 May 2016 14:21:02 +0530</pubDate>
-        <link>http://yourdomain.com/blog/jekyll/update/2016/05/31/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/jekyll/update/2016/05/31/welcome-to-jekyll.html</guid>
+        <link>http://hemangsk.github.io/blog/jekyll/update/2016/05/31/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/blog/jekyll/update/2016/05/31/welcome-to-jekyll.html</guid>
         
         
         <category>blog</category>
@@ -249,8 +249,8 @@ Transition
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 30 May 2016 00:00:28 +0530</pubDate>
-        <link>http://yourdomain.com/software/2016/05/30/term000.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/software/2016/05/30/term000.html</guid>
+        <link>http://hemangsk.github.io/software/2016/05/30/term000.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/software/2016/05/30/term000.html</guid>
         
         
         <category>software</category>
@@ -467,8 +467,8 @@ Transition
 &lt;/div&gt;
 </description>
         <pubDate>Mon, 30 May 2016 00:00:28 +0530</pubDate>
-        <link>http://yourdomain.com/software/2016/05/30/term00.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/software/2016/05/30/term00.html</guid>
+        <link>http://hemangsk.github.io/software/2016/05/30/term00.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/software/2016/05/30/term00.html</guid>
         
         
         <category>software</category>
@@ -533,8 +533,8 @@ Transition
 
 </description>
         <pubDate>Mon, 30 May 2016 00:00:28 +0530</pubDate>
-        <link>http://yourdomain.com/software/2016/05/30/term0.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/software/2016/05/30/term0.html</guid>
+        <link>http://hemangsk.github.io/software/2016/05/30/term0.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/software/2016/05/30/term0.html</guid>
         
         
         <category>software</category>
@@ -596,8 +596,8 @@ Examples of milestones,  &lt;span class=&quot;udl&quot;&gt;Finalization of proje
 
 </description>
         <pubDate>Sun, 29 May 2016 19:20:28 +0530</pubDate>
-        <link>http://yourdomain.com/software/2016/05/29/term.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/software/2016/05/29/term.html</guid>
+        <link>http://hemangsk.github.io/software/2016/05/29/term.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/software/2016/05/29/term.html</guid>
         
         
         <category>software</category>
@@ -646,8 +646,8 @@ Examples of milestones,  &lt;span class=&quot;udl&quot;&gt;Finalization of proje
 &lt;p&gt;The study of Software engineering tells us why these myths are myths, And what is the correct approach of doing things.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 May 2016 17:50:28 +0530</pubDate>
-        <link>http://yourdomain.com/software/2016/05/29/glitters-and-gold.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/software/2016/05/29/glitters-and-gold.html</guid>
+        <link>http://hemangsk.github.io/software/2016/05/29/glitters-and-gold.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/software/2016/05/29/glitters-and-gold.html</guid>
         
         
         <category>software</category>
@@ -683,8 +683,8 @@ Examples of milestones,  &lt;span class=&quot;udl&quot;&gt;Finalization of proje
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 29 May 2016 15:58:35 +0530</pubDate>
-        <link>http://yourdomain.com/software/engineering/2016/05/29/elementary-analysis.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/software/engineering/2016/05/29/elementary-analysis.html</guid>
+        <link>http://hemangsk.github.io/software/engineering/2016/05/29/elementary-analysis.html</link>
+        <guid isPermaLink="true">http://hemangsk.github.io/software/engineering/2016/05/29/elementary-analysis.html</guid>
         
         
         <category>software</category>
